@@ -2,23 +2,56 @@
     margin: 0;
     padding: 0;
 }
-
-
-.heading__text{
-    font-size: 24px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: left;
+body{
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
 }
-.header_link{
+
+.center{
+    padding-left:calc(50% - 637px);
+    padding-right:calc(50% - 637px);
+}
+
+.heading__text__Grow{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.header{
+    display: flex;
+}
+.heading__text__Be{
+    color: rgb(242, 88, 34) ;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.header__link__Home{
+    color: rgb(242, 88, 34);
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0;
     text-align: left;
 }
-h1{
+.header_link{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: left;
+}
+.main_info{
+    display: flex;
+}
+.title{
+    width: 507px;
     color: rgb(0, 0, 0);
     font-size: 60px;
     font-weight: 400;
@@ -26,7 +59,8 @@ h1{
     letter-spacing: 0;
     text-align: left;
 }
-p{
+.sub_title{
+    width: 456px;
     color: rgb(136, 136, 136);
     font-size: 20px;
     font-weight: 400;
@@ -53,3 +87,4 @@ p{
     letter-spacing: 0;
     text-align: left;
 }
+
